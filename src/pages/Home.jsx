@@ -1,11 +1,12 @@
-// TODO: Import necessary modules and data
-function Home() {
-  // TODO: Implement logic to display the list of songs
+import { SongList } from "../components/SongList";
+
+export const Home = () => {
   return (
     <>
       <div>
         <h1>Rolling Stones 500 Greatest Songs of all Time</h1>
-        {/* TODO: Display the list of songs with links */}
+
+        <SongList title="Rolling Stones 500 Greatest Songs of all Time" />
       </div>
     </>
   );
